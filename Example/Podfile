@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BRCDropDown_Example' do
+  pod 'BRCDropDown', :path => '../'
+
+  target 'BRCDropDown_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
