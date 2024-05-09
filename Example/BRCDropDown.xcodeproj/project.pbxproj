@@ -13,7 +13,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* BRCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BRCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* BRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BRCViewController.m */; };
+		6003F5A7195388D20070C39A /* BRCDropDownRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BRCDropDownRootViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,7 +21,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		7A304F6D2BEC7BF200F6A1BE /* BRCToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A304F6C2BEC7BF200F6A1BE /* BRCToast.m */; };
+		7A304F702BEC7C8A00F6A1BE /* BRCDropDownInputTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A304F6F2BEC7C8A00F6A1BE /* BRCDropDownInputTestViewController.m */; };
+		7A304F732BEC7CF200F6A1BE /* BRCDropDownExampleTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A304F722BEC7CF200F6A1BE /* BRCDropDownExampleTestViewController.m */; };
+		7A304F772BEC84E600F6A1BE /* BRCImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A304F762BEC84E600F6A1BE /* BRCImageCollectionCell.m */; };
 		D7C84C8A5A7174E4C8EC7A36 /* Pods_BRCDropDown_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D38279695AF3D4771B5D08C /* Pods_BRCDropDown_Example.framework */; };
 		F74E61259D799E0106F07A34 /* Pods_BRCDropDown_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B5E9BE6D5128A4CDC914E4 /* Pods_BRCDropDown_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		2B819B616D8D162CA0E39296 /* Pods-BRCDropDown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRCDropDown_Example.release.xcconfig"; path = "Target Support Files/Pods-BRCDropDown_Example/Pods-BRCDropDown_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4CA79C09F804826B6CFBA610 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4CA79C09F804826B6CFBA610 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BB3015A8FE69E53981F39B8 /* Pods-BRCDropDown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRCDropDown_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BRCDropDown_Tests/Pods-BRCDropDown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BRCDropDown_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRCDropDown_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,8 +53,8 @@
 		6003F59B195388D20070C39A /* BRCDropDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRCDropDown-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* BRCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* BRCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* BRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* BRCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* BRCDropDownRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCDropDownRootViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* BRCDropDownRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCDropDownRootViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* BRCDropDown_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRCDropDown_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,11 +65,18 @@
 		60B5E9BE6D5128A4CDC914E4 /* Pods_BRCDropDown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRCDropDown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		738A420C9C35F352542B76F9 /* Pods-BRCDropDown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRCDropDown_Tests.release.xcconfig"; path = "Target Support Files/Pods-BRCDropDown_Tests/Pods-BRCDropDown_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8606A6783783BF97299A1C9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A304F6B2BEC7BF200F6A1BE /* BRCToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRCToast.h; sourceTree = "<group>"; };
+		7A304F6C2BEC7BF200F6A1BE /* BRCToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRCToast.m; sourceTree = "<group>"; };
+		7A304F6E2BEC7C8A00F6A1BE /* BRCDropDownInputTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCDropDownInputTestViewController.h; sourceTree = "<group>"; };
+		7A304F6F2BEC7C8A00F6A1BE /* BRCDropDownInputTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCDropDownInputTestViewController.m; sourceTree = "<group>"; };
+		7A304F712BEC7CF200F6A1BE /* BRCDropDownExampleTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCDropDownExampleTestViewController.h; sourceTree = "<group>"; };
+		7A304F722BEC7CF200F6A1BE /* BRCDropDownExampleTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCDropDownExampleTestViewController.m; sourceTree = "<group>"; };
+		7A304F752BEC84E600F6A1BE /* BRCImageCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCImageCollectionCell.h; sourceTree = "<group>"; };
+		7A304F762BEC84E600F6A1BE /* BRCImageCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCImageCollectionCell.m; sourceTree = "<group>"; };
+		8606A6783783BF97299A1C9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D38279695AF3D4771B5D08C /* Pods_BRCDropDown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRCDropDown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB238DA44240EA3E1D21F919 /* Pods-BRCDropDown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRCDropDown_Example.debug.xcconfig"; path = "Target Support Files/Pods-BRCDropDown_Example/Pods-BRCDropDown_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA8EB7611AE9E43288737687 /* BRCDropDown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BRCDropDown.podspec; path = ../BRCDropDown.podspec; sourceTree = "<group>"; };
+		EA8EB7611AE9E43288737687 /* BRCDropDown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BRCDropDown.podspec; path = ../BRCDropDown.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +144,14 @@
 			children = (
 				6003F59C195388D20070C39A /* BRCAppDelegate.h */,
 				6003F59D195388D20070C39A /* BRCAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* BRCViewController.h */,
-				6003F5A6195388D20070C39A /* BRCViewController.m */,
+				6003F5A5195388D20070C39A /* BRCDropDownRootViewController.h */,
+				6003F5A6195388D20070C39A /* BRCDropDownRootViewController.m */,
+				7A304F6E2BEC7C8A00F6A1BE /* BRCDropDownInputTestViewController.h */,
+				7A304F6F2BEC7C8A00F6A1BE /* BRCDropDownInputTestViewController.m */,
+				7A304F712BEC7CF200F6A1BE /* BRCDropDownExampleTestViewController.h */,
+				7A304F722BEC7CF200F6A1BE /* BRCDropDownExampleTestViewController.m */,
+				7A304F742BEC84D400F6A1BE /* View */,
+				7A304F6A2BEC7BF200F6A1BE /* BRCToast */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -185,6 +200,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		7A304F6A2BEC7BF200F6A1BE /* BRCToast */ = {
+			isa = PBXGroup;
+			children = (
+				7A304F6B2BEC7BF200F6A1BE /* BRCToast.h */,
+				7A304F6C2BEC7BF200F6A1BE /* BRCToast.m */,
+			);
+			path = BRCToast;
+			sourceTree = "<group>";
+		};
+		7A304F742BEC84D400F6A1BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A304F752BEC84E600F6A1BE /* BRCImageCollectionCell.h */,
+				7A304F762BEC84E600F6A1BE /* BRCImageCollectionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E48BAAE54D6AB062DA0FC8FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +226,6 @@
 				5BB3015A8FE69E53981F39B8 /* Pods-BRCDropDown_Tests.debug.xcconfig */,
 				738A420C9C35F352542B76F9 /* Pods-BRCDropDown_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhixiongsun;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JACGLW92PL;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +293,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +313,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -325,10 +360,20 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BRCDropDown_Example/Pods-BRCDropDown_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BRCDropDown/BRCDropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRCDropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,9 +409,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A304F772BEC84E600F6A1BE /* BRCImageCollectionCell.m in Sources */,
+				7A304F732BEC7CF200F6A1BE /* BRCDropDownExampleTestViewController.m in Sources */,
 				6003F59E195388D20070C39A /* BRCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* BRCViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* BRCDropDownRootViewController.m in Sources */,
+				7A304F702BEC7C8A00F6A1BE /* BRCDropDownInputTestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7A304F6D2BEC7BF200F6A1BE /* BRCToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,9 +543,11 @@
 			baseConfigurationReference = CB238DA44240EA3E1D21F919 /* Pods-BRCDropDown_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JACGLW92PL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BRCDropDown/BRCDropDown-Prefix.pch";
 				INFOPLIST_FILE = "BRCDropDown/BRCDropDown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +561,11 @@
 			baseConfigurationReference = 2B819B616D8D162CA0E39296 /* Pods-BRCDropDown_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JACGLW92PL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BRCDropDown/BRCDropDown-Prefix.pch";
 				INFOPLIST_FILE = "BRCDropDown/BRCDropDown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

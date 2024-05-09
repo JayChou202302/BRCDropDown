@@ -1,0 +1,22 @@
+{
+  "name": "BRCMacro",
+  "version": "0.1.0",
+  "summary": "Some Useful Define For iOS Develop",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jaychou/BRCMacro",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jaychou": "sunzhixiong91@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jaychou/BRCMacro.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "BRCMacro/Classes/**/*"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "BRCCommonComponents",
+  "version": "0.1.0",
+  "summary": "一些底层通用组件",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jaychou/BRCCommonComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jaychou": "sunzhixiong91@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jaychou/BRCCommonComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "BRCCommonComponents/Classes/**/*",
+  "dependencies": {
+    "BRCMacro": [
+
+    ],
+    "BRCThirdLibary": [
+
+    ],
+    "BRCFoundationExtension": [
+
+    ],
+    "BRCAnimation": [
+
+    ]
+  }
+}
