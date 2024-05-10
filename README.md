@@ -23,7 +23,8 @@
 
 # BRCDropDown
 
-[![CI Status](https://img.shields.io/travis/zhixiongsun/BRCDropDown.svg?style=flat)](https://travis-ci.org/zhixiongsun/BRCDropDown)
+![](https://img.shields.io/github/v/tag/jaychou202302/BRCDropDown?label=Version)
+[![Cocoapods Compatible](https://img.shields.io/badge/cocoapods-Compatible-brightgreen.svg)](https://cocoapods.org/pods/BRCDropDown)
 [![Version](https://img.shields.io/cocoapods/v/BRCDropDown.svg?style=flat)](https://cocoapods.org/pods/BRCDropDown)
 [![License](https://img.shields.io/cocoapods/l/BRCDropDown.svg?style=flat)](https://cocoapods.org/pods/BRCDropDown)
 [![Platform](https://img.shields.io/cocoapods/p/BRCDropDown.svg?style=flat)](https://cocoapods.org/pods/BRCDropDown)
