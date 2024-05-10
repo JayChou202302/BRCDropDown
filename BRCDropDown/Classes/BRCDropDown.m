@@ -143,9 +143,7 @@
         _contentStyle = style;
         _anchorView = anchorView;
         _dismissMode = BRCDropDownDismissModeNone;
-        _webImageLoadBlock = ^(UIImageView *imageView,NSURL *imageUrl){
-           
-        };
+        _webImageLoadBlock = nil;
         _cornerRadius = 10;
         _arrowInset = 15;
         _arrowRoundRadius = 4;
@@ -164,7 +162,6 @@
         _popUpPosition = BRCDropDownPopUpBottom;
         _contentStyle = BRCDropDownContentStyleTable;
         _contentAlignment = BRCDropDownContentAlignmentLeft;
-        _autoHandlerDismiss = YES;
         _autoFitContainerSize = YES;
         _autoFitKeyBoardDisplay = YES;
         _autoCutoffRelief = YES;
@@ -477,7 +474,6 @@
             frame = CGRectMake(frame.origin.x, self.anchorViewBottom - frame.size.height,  frame.size.width, frame.size.height);
         }
     }
-    NSLog(@"containerFrame = %@",NSStringFromCGRect(frame));
     return frame;
 }
 
@@ -523,7 +519,6 @@
     if (self.display) {
         return;
     }
-    NSLog(@"anchorPoint = %@",NSStringFromCGPoint(anchorPoint));
     UIView *view = [UIView new];
     view.frame = CGRectMake(anchorPoint.x, anchorPoint.y, 0, 0);
     self.anchorView = view;

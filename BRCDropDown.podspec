@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BRCDropDown'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BRCDropDown.'
+  s.version          = '1.0.0'
+  s.summary          = 'BRCDropDown is a versatile, highly customizable dropdown menu library for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'BRCDropDown is a highly customizable dropdown menu library for iOS, designed to enhance user interfaces with dynamic, visually appealing dropdown options. It supports extensive customization including arrow styles, popup animations, content alignment, and automatic dismissal behaviors. Ideal for applications requiring a flexible, adaptive UI component, BRCDropDown adapts seamlessly to various content types such as text, images, or custom views, making it a versatile choice for any iOS developer.'
 
   s.homepage         = 'https://github.com/zhixiongsun/BRCDropDown'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhixiongsun' => 'zhixiongsun@trip.com' }
+  s.author           = { 'zhixiongsun' => 'sunzhixiong91@gmail.com' }
   s.source           = { :git => 'https://github.com/zhixiongsun/BRCDropDown.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'BRCDropDown/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BRCDropDown' => ['BRCDropDown/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
