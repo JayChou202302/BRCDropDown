@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'BRCDropDown is a highly customizable dropdown menu library for iOS, designed to enhance user interfaces with dynamic, visually appealing dropdown options. It supports extensive customization including arrow styles, popup animations, content alignment, and automatic dismissal behaviors. Ideal for applications requiring a flexible, adaptive UI component, BRCDropDown adapts seamlessly to various content types such as text, images, or custom views, making it a versatile choice for any iOS developer.'
 
-  s.homepage         = 'https://github.com/zhixiongsun/BRCDropDown'
+  s.homepage         = 'https://github.com/JayChou202302/BRCDropDown'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhixiongsun' => 'sunzhixiong91@gmail.com' }
-  s.source           = { :git => 'https://github.com/zhixiongsun/BRCDropDown.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JayChou202302/BRCDropDown.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'

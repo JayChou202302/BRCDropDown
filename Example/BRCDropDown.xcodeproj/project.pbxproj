@@ -76,7 +76,7 @@
 		8606A6783783BF97299A1C9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D38279695AF3D4771B5D08C /* Pods_BRCDropDown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRCDropDown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB238DA44240EA3E1D21F919 /* Pods-BRCDropDown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRCDropDown_Example.debug.xcconfig"; path = "Target Support Files/Pods-BRCDropDown_Example/Pods-BRCDropDown_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA8EB7611AE9E43288737687 /* BRCDropDown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BRCDropDown.podspec; path = ../BRCDropDown.podspec; sourceTree = "<group>"; };
+		EA8EB7611AE9E43288737687 /* BRCDropDown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BRCDropDown.podspec; path = ../BRCDropDown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
