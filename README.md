@@ -26,7 +26,7 @@
 ![](https://img.shields.io/github/v/tag/jaychou202302/BRCDropDown?label=Version)
 [![Cocoapods Compatible](https://img.shields.io/badge/cocoapods-Compatible-brightgreen.svg)](https://cocoapods.org/pods/BRCDropDown)
 [![Version](https://img.shields.io/cocoapods/v/BRCDropDown.svg?style=flat)](https://cocoapods.org/pods/BRCDropDown)
-[![License](https://img.shields.io/cocoapods/l/BRCDropDown.svg?style=flat)](https://cocoapods.org/pods/BRCDropDown)
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/cocoapods/p/BRCDropDown.svg?style=flat)](https://cocoapods.org/pods/BRCDropDown)
 
 A versatile, highly customizable dropdown menu library for iOS. With multiple styles, positions, and animation options, it lets you add engaging dropdown menus to your app with ease.
