@@ -1,11 +1,10 @@
 PODS:
-  - BRCDropDown (0.1.0)
+  - BRCDropDown (1.0.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - SDWebImage (5.18.3):
     - SDWebImage/Core (= 5.18.3)
   - SDWebImage/Core (5.18.3)
-  - TTTAttributedLabel (2.0.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -15,7 +14,6 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - SDWebImage
-  - TTTAttributedLabel
   - YYKit
 
 SPEC REPOS:
@@ -23,7 +21,6 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - SDWebImage
-    - TTTAttributedLabel
     - YYKit
 
 EXTERNAL SOURCES:
@@ -31,13 +28,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BRCDropDown: 6822dae242aa8ea6d0990f6a84890412b3ef4c38
+  BRCDropDown: 26b7a96e1129302de6feb817bdf49fc63aaa69cc
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
-  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 54e92d7fc7aa3caffd8a357945b02cf24bc9bc61
+PODFILE CHECKSUM: 5722545399c150a9301cde438dc27d33b8a51a7d
 
 COCOAPODS: 1.10.1

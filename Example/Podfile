@@ -3,11 +3,13 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'BRCDropDown_Example' do
+  
   pod 'BRCDropDown', :path => '../'
   pod 'Masonry'
   pod 'SDWebImage'
   pod 'YYKit'
   pod 'MBProgressHUD'
+  
   target 'BRCDropDown_Tests' do
     inherit! :search_paths
 

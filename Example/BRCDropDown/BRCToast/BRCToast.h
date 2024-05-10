@@ -1,6 +1,5 @@
 //
 //  BRCToast.h
-//  ClothStore
 //
 //  Created by sunzhixiong on 2023/12/2.
 //
